@@ -87,6 +87,8 @@ window.onload = function () {
     if (f != null) {
         sessionStorage["f"] = f.replace(new RegExp("_", "gi"), " ");
         fname2.innerHTML = transliterate(sessionStorage["f"]);
+    } else {
+        sessionStorage["f"] = "F****** I** O*******";
     }
     if (d != null) {
         date2.innerHTML = d.replace(new RegExp("_", "gi"), ".");
@@ -97,5 +99,5 @@ window.onload = function () {
     document.getElementById("start-app-loader").classList.add("hide");
 }
 
-// https://username.github.io/repo?n=1234_0000_5678_9000&f=F*******_I*******_O*******&d=17_11_2019&p=54_321
+// https://username.github.io/repo?n=1234_0000_5678_9000&f=F******_I**_O*******&d=17_11_2019&p=54_321
 // Use only for informational purposes
