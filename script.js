@@ -70,7 +70,7 @@ function changeLang() {
         expire1.innerHTML = "Действует до:";
         fname2.innerHTML = transliterate(sessionStorage["f"]);
         date1.innerHTML = "Дата рождения:";
-        passport1.innerHTML = "Паспорт";
+        passport1.innerHTML = "Паспорт:";
         closelink.innerHTML = "Закрыть";
     }
 }
